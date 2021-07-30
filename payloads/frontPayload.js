@@ -1,13 +1,3 @@
-import { letraMinusculaFront } from "./letraminucuka.js"
-import {
-  splitStringArrayFront,
-  splitWord
-} from "./splitArray.js";
-
-
-
-
-
 const occupationsFront = [
   {
     occupation: "Não informado",
@@ -32,9 +22,5 @@ const occupationsFront = [
   }
 
 ]
-//letrs minuscula
 
-const letraMinusculaFrontVai = letraMinusculaFront(occupationsFront);
-const slipArrayFrontVai = splitStringArrayFront(letraMinusculaFrontVai);
-const splitWordVai = splitWord(slipArrayFrontVai)
-console.log("seraa", splitWordVai);
+export default occupationsFront;
